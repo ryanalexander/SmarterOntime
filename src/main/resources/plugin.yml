@@ -9,3 +9,4 @@ depend:
 commands:
   ontime:
     description: Check your ontime
+    permission: minesuperior.commands.ontime

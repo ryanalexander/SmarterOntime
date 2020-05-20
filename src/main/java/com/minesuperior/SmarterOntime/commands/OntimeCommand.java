@@ -15,7 +15,7 @@ public class OntimeCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String arg, String[] args) {
-        if(args.length>0){
+        if(args.length>0&&sender.hasPermission("minesuperior.commands.ontime.other")){
             OfflinePlayer player = Bukkit.getPlayer(args[0]);
             Main.players.get(player).getSummary((reply,total)-> {
                 sender.sendMessage(Text.format("&a&lM&2&lS&7 -- Ontime report for &6"+player.getName()+"&7 --"));
