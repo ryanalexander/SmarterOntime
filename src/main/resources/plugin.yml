@@ -1,0 +1,11 @@
+name: SmarterOntime
+description: Count the ontime of all your staff members
+version: ${project.version}
+author: AspyTheAussie
+main: com.minesuperior.SmarterOntime.Main
+depend:
+  - 'LilyPad-Connect'
+  - 'CoreProtect'
+commands:
+  ontime:
+    description: Check your ontime

@@ -1,0 +1,22 @@
+#
+# Counter options
+# To count
+# Should this server count towards ontime?
+#
+counter:
+  to_count: false
+
+translations: # This only affects how server names are displayed
+  ms-opfactions-1: 'Factions'
+  ms-opprison-1: 'OP Prison'
+  ms-survival-1: 'Survival'
+  ms-skyblock-1: 'SB Alpha'
+  ms-skyblock-2: 'SB Omega'
+  ms-skyblock-3: 'SB Delta'
+  ms-skyblock-4: 'SB Theta'
+  ms-skyblock-5: 'SB Chaos'
+  ms-towny-1: 'T Exalted'
+  ms-towny-3: 'T Abyss'
+  ms-optowny-1: 'T Mythic'
+  ms-kitpvp-1: 'KitPvP'
+  ms-creative-1: 'Creative'
